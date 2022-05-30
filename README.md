@@ -59,6 +59,8 @@ We will leave the remaining settings to default and then click on Upload.
 
 Here we can see the details of the object uploaded which include Properties, Permissions, and Versions. Note that we can see an Object URL over here. If we copy this URL and paste it into the browser let's see what happens.
 
+![image](https://user-images.githubusercontent.com/103466963/171031686-1c2cbcde-d244-4b01-959e-0d7cd9435e7e.png)
+
 
 
 
