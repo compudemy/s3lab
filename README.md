@@ -117,8 +117,7 @@ Now we will explore encryption in S3 Buckets. When we will get in the details of
 
 When we will get into the Server-side encryption settings of the object we can specify an Encryption key. It can be either Amazon s3 key (SSE-S3) that is an encryption key created, managed, and used for us by Amazon S3, or an AWS Key Management Service key (SSE-KMS) that is protected by AWS Key Management Service. Note that to upload an object with SSE-C that is a customer-provided encryption key we need to use AWS CLI, AWS SDK, or Amazon S3 REST API.
 
-
-![image](https://user-images.githubusercontent.com/103466963/171042691-a129275f-43c1-40ec-867f-27fbd7d9ac4a.png)
+![image](https://user-images.githubusercontent.com/103466963/171045435-c6a83c71-c188-47a6-9c2e-76cb2cd09b0f.png)
 
 ![image)](https://user-images.githubusercontent.com/103466963/171044728-e2653bc6-46f3-49c7-96ac-598953f0261d.png)
 
