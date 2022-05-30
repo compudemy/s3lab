@@ -15,4 +15,5 @@ Create AWS S3 Bucket and Objects - Hands-On
 Step-1: Create an S3 Bucket
 First, we will log in to our AWS console then under the Services tab type S3.  Currently, we don't have any S3 Buckets available. In order to create an S3 bucket, we will click on Create bucket.
 
-[image]https://www.golinuxcloud.com/wp-content/uploads/1-21.png
+
+![image](https://user-images.githubusercontent.com/103466963/163442034-7341bb8b-2c6d-416b-be78-4d9cb1f1a550.png)
