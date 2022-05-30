@@ -172,7 +172,10 @@ Now here we can see both our statements listed. Now we will click on Generate Po
 
 ![image](https://user-images.githubusercontent.com/103466963/171053786-77bb070a-c04b-4a57-8ce2-d8858a530761.png)
 
+It returns us a JSON Document which we will use for our S3 Bucket Policy. Note that how easy it is to create policies with Policy Generator.
 
+!image](https://user-images.githubusercontent.com/103466963/171054097-2852b019-6e2d-4f66-aa92-c71c13f9231b.png)
 
+Now we will copy the above JSON document and paste it into our Bucket Policy and after that, we will click on Save changes.
 
 
