@@ -168,8 +168,9 @@ Again we will click on Add Statement.
 ![image](https://user-images.githubusercontent.com/103466963/171053088-617e8933-4fd7-4b97-ba73-e0567a0bc121.png)
 
 
+Now here we can see both our statements listed. Now we will click on Generate Policy.
 
-
+![image](https://user-images.githubusercontent.com/103466963/171053786-77bb070a-c04b-4a57-8ce2-d8858a530761.png)
 
 
 
