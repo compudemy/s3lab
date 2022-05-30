@@ -113,7 +113,7 @@ Here we can see that deleting specified objects adds delete markers to them. Now
 Here we will enable Show versions again to view the delete marker. Note that a delete marker is a  placeholder for a versioned object named in a simple DELETE request. When we delete an object with versioning enabled the object is not deleted. The delete marker makes Amazon S3 behave as if the object has been deleted. To restore the object here, we can delete the delete marker.
 
 
-![Screenshot (182)](https://user-images.githubusercontent.com/103466963/171041579-d2ca199d-1dd3-4ffa-9cb9-5e1ec4ba1ff3.png)
+![image)](https://user-images.githubusercontent.com/103466963/171041579-d2ca199d-1dd3-4ffa-9cb9-5e1ec4ba1ff3.png)
 
 # Step-4: S3 Bucket Encryption
 Now we will explore encryption in S3 Buckets. When we will get in the details of an object, we can see that Default Encryption is Disabled that is set at the bucket level.  When it is enabled the new objects that are uploaded to the S3 bucket will be encrypted by default.
@@ -121,6 +121,26 @@ Now we will explore encryption in S3 Buckets. When we will get in the details of
 ![image](https://user-images.githubusercontent.com/103466963/171041901-cc57a8a2-0564-475b-afe3-6137707e0ab4.png)
 
 When we will get into the Server-side encryption settings of the object we can specify an Encryption key. It can be either Amazon s3 key (SSE-S3) that is an encryption key created, managed, and used for us by Amazon S3, or an AWS Key Management Service key (SSE-KMS) that is protected by AWS Key Management Service. Note that to upload an object with SSE-C that is a customer-provided encryption key we need to use AWS CLI, AWS SDK, or Amazon S3 REST API.
+
+![image](https://user-images.githubusercontent.com/103466963/171042511-a8334fb3-312b-4870-abdf-39a464aa1861.png)
+
+![Screenshot (185)](https://user-images.githubusercontent.com/103466963/171042691-a129275f-43c1-40ec-867f-27fbd7d9ac4a.png)
+
+Now when we will go to the bucket level encryption it's disabled by default. We will enable it through which new objects that are stored in the bucket are automatically encrypted.  Here also either we can do encryption through SSE-S3 or SSE-KMS. If we want to use SSE-C we will have to use AWS CLI, AWS SDK, or Amazon S3 REST API as stated above.
+
+![Screenshot (186)](https://user-images.githubusercontent.com/103466963/171042908-9c3a8aee-fc48-4e0b-9d0c-f4bb587cb884.png)
+
+![Screenshot (187)](https://user-images.githubusercontent.com/103466963/171043087-6c86ea9b-341c-444f-a6e4-b78909bc1558.png)
+
+Now when we will upload the object again in the bucket, we can see that the Default encryption is enabled.
+
+![Screenshot (188)](https://user-images.githubusercontent.com/103466963/171043281-10ad43e0-9763-4dd5-8e0f-c4e489df1433.png)
+
+# AWS S3 Bucket Policies
+According to what is mentioned on the official website of AWS,
+
+A bucket policy is a resource-based AWS Identity and Access Management (IAM) policy. You add a bucket policy to a bucket to grant other AWS accounts or IAM users access permissions for the bucket and the objects in it. Object permissions apply only to the objects that the bucket owner creates
+
 
 
 
