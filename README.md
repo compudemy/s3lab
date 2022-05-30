@@ -27,3 +27,8 @@ First, we will log in to our AWS console then under the Services tab type S3.  C
 
 
 ![image](https://www.golinuxcloud.com/wp-content/uploads/1-21.png)
+
+Here we will enter a bucket name that should be globally unique. Let's see what will happen if we provide the name my-s3-test-bucket. Now we will click on Create Bucket.
+
+![image](https://user-images.githubusercontent.com/103466963/171024894-ee4d173c-8acd-46fe-9b1c-1d49a160178b.png)
+
