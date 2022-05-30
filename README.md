@@ -28,7 +28,7 @@ First, we will log in to our AWS console then under the Services tab type S3.  C
 
 ![image](https://www.golinuxcloud.com/wp-content/uploads/1-21.png)
 
-Here we will enter a bucket name that should be globally unique. Let's see what will happen if we provide the name my-s3-test-bucket. Now we will click on Create Bucket.
+Here we will enter a bucket name that should be globally unique. Now we will enter a new name for our bucket that is globa After that, we will choose a Region where our bucket will reside. I have chosen it to be US East (Ohio). You can choose a region that is near to you. Note that the S3 console is Global.
 
 ![image](https://user-images.githubusercontent.com/103466963/171026863-c2400719-9b91-4add-bd8c-3791b7a7ac96.png)
 
