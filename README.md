@@ -145,6 +145,7 @@ This will take us to a new screen where we can see Bucket ARN which we will use 
 
  ![image](https://user-images.githubusercontent.com/103466963/171044403-ddd4cdb1-0bdb-4959-8c49-f4ece7fa6a4d.png)
 
+![Screenshot (193)](https://user-images.githubusercontent.com/103466963/171047552-975fcc73-bef7-4d86-9c1f-9ea41acb96ba.png)
 
 
 
