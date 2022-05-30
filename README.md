@@ -83,7 +83,11 @@ Now we will upload the aws.png file again.
 
 ![image](https://user-images.githubusercontent.com/103466963/171035205-7f8f433c-0ef1-4b48-a715-00e8b0ff9756.png)
 
+Now when we will turn on the Show versions option, we can clearly see both the objects one which we uploaded previously without versioning enabled has Version ID equal to null and the other which we uploaded now has a Version ID.
 
+![image)](https://user-images.githubusercontent.com/103466963/171035514-0fd3c972-72c3-4683-8103-4dbc7ea60a4d.png)
+
+![image](https://user-images.githubusercontent.com/103466963/171035650-0ce8e90c-0b6e-45ff-8017-2109b3858eba.png)
 
 
 
