@@ -32,4 +32,6 @@ Here we will enter a bucket name that should be globally unique. Now we will ent
 
 ![image](https://user-images.githubusercontent.com/103466963/171026863-c2400719-9b91-4add-bd8c-3791b7a7ac96.png)
 
+Here we will Block all public access to our S3 bucket that are the default settings. This will be unchecked if we require public access to our buckets like in the case of hosting a website 
+
 
