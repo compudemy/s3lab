@@ -150,5 +150,11 @@ This will lead us to this new screen where we can easily define policy for our b
 
 ![image](https://user-images.githubusercontent.com/103466963/171052017-6db48ecb-5014-4e61-9939-d32d4794ad4b.png)
 
+Now here we will define that at what condition we don't want a specific object to be uploaded. We will select the Condition to Null, Key to s3:x-amz-server-side-encryption and Value to true. This means we are denying any object to be uploaded with Key s3:x-amz-server-side-encryption set to Null. Now we click on Add Condition.
 
+![image](https://user-images.githubusercontent.com/103466963/171052477-80841a95-7b14-43b8-acfc-067605d61e10.png)
+
+Here we can see the condition we just defined.
+
+![image)](https://user-images.githubusercontent.com/103466963/171052635-49884da8-cc1e-400d-a182-b7c6ef3a75f7.png)
 
