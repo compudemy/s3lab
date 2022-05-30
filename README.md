@@ -61,6 +61,11 @@ Here we can see the details of the object uploaded which include Properties, Per
 
 ![image](https://user-images.githubusercontent.com/103466963/171031686-1c2cbcde-d244-4b01-959e-0d7cd9435e7e.png)
 
+The access to the file is denied and the reason is that we blocked public access while creating our S3 bucket. Now let's see what happens if we click on the Open button present in the top right corner.
+
+![Image](https://user-images.githubusercontent.com/103466963/171032295-e829fd7f-e839-425a-a482-7f4fed03c04f.png)
+
+
 
 
 
