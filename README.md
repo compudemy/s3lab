@@ -180,3 +180,13 @@ Now we will copy the above JSON document and paste it into our Bucket Policy and
 
 ![image](https://user-images.githubusercontent.com/103466963/171054932-8876a962-fae3-4f05-8e72-f1f9cc5e4328.png)
 
+# Testing AWS Bucket Policy
+Now we will upload aws.png again into our S3 bucket but this time without specifying any encryption key. Let's see what happens.
+
+![image](https://user-images.githubusercontent.com/103466963/171055243-5e7828ec-8ce9-448a-b867-b7190dc75a5d.png)
+
+We will receive an error message Upload Failed and we can clearly see that the access is denied since our object was not encrypted with AES256 i.e SSE-S3 while we uploaded it.
+
+![image](https://user-images.githubusercontent.com/103466963/171055384-cd67ccff-943f-4a9a-b902-57631f2c279f.png)
+
+
