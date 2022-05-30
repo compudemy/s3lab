@@ -158,3 +158,20 @@ Here we can see the condition we just defined.
 
 ![image)](https://user-images.githubusercontent.com/103466963/171052635-49884da8-cc1e-400d-a182-b7c6ef3a75f7.png)
 
+Now we will click on Add Statement. Now we will add another statement in which all the other settings will remain the same except for the condition. In Condition we will select StringNotEquals, for Key, we will select s3:amz-server-side-encryption and the Value will be set to AES256. Now again we will click on Add Condition. Here it means that for Key s3:amz-server-side-encryption if the value is not equal to AES256 then we will not allow the object to get uploaded into our bucket.
+
+![image)](https://user-images.githubusercontent.com/103466963/171052886-54095948-20b0-4995-8832-347513b8af95.png)
+
+Again we will click on Add Statement.
+
+
+![image](https://user-images.githubusercontent.com/103466963/171053088-617e8933-4fd7-4b97-ba73-e0567a0bc121.png)
+
+
+
+
+
+
+
+
+
