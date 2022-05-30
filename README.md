@@ -68,7 +68,9 @@ The access to the file is denied and the reason is that we blocked public access
 
 ![image](https://user-images.githubusercontent.com/103466963/171033955-ad35335e-7dd3-43fa-b0b3-507d3684e7bb.png)
 
+# Step-3: S3 Bucket Versioning
 
+Now we will explore the topic of S3 versioning. Note that with versioning we can keep multiple variants of an object in the same bucket. Versioning is used to restore, retrieve and preserve every version of every object and through it, we can also recover from both unintended user actions and application failures.
 
 
 
