@@ -148,4 +148,7 @@ This will take us to a new screen where we can see Bucket ARN which we will use 
 
 This will lead us to this new screen where we can easily define policy for our bucket through this user-friendly UI.  Here we can define policies that control access to AWS products and resources.  First we will select the Policy Type that in our case is S3 Bucket Policy. We can also create different types of policies like IAM Policy, an S3 Bucket Policy, an SNS Topic Policy, a VPC Endpoint Policy, and an SQS Policy. Then we will add a statement that is a formal description of single permission. Here for Effect we will select Deny. In Principal we will write *. In Actions, we will select PutObject and in Amazon Resource Name we will enter the value we found on the previous screen with the name Bucket ARN. Note that we will add a /* after the Bucket ARN value. After that, we will click on Add Conditions.
 
+![image](https://user-images.githubusercontent.com/103466963/171052017-6db48ecb-5014-4e61-9939-d32d4794ad4b.png)
+
+
 
