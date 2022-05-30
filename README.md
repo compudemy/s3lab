@@ -189,4 +189,25 @@ We will receive an error message Upload Failed and we can clearly see that the a
 
 ![image](https://user-images.githubusercontent.com/103466963/171055384-cd67ccff-943f-4a9a-b902-57631f2c279f.png)
 
+Now we will upload the object again but this time we will specify an encryption key by overriding default encryption bucket settings and then select SSE-S3 and click on Upload.
+
+
+![image](https://user-images.githubusercontent.com/103466963/171055649-244f510b-4f7d-41c6-942f-d1f5d379fa44.png)
+
+Here we can see that object has been uploaded successfully as it satisfies conditions set in our bucket policy.
+
+![image](https://user-images.githubusercontent.com/103466963/171055761-838f4b47-5a49-4ccf-b3ed-b59497325c86.png)
+
+# Conclusion
+With this, we have come to the end of our tutorial. In this tutorial, we learned about
+
+S3 Buckets and Objects
+S3 Versioning
+S3  Encryption
+S3 Bucket Policy
+
+
+
+
+
 
