@@ -44,8 +44,22 @@ Here we can see our bucket in the list of available buckets.
 
 ![image)](https://user-images.githubusercontent.com/103466963/171029469-faae612e-1f42-46c7-b792-733acb9237a7.png)
 
-**Step-2: Create an Object**
+# Step-2: Create an Object
 Now we will create objects in our S3 bucket. Note that objects are fundamental entities stored in Amazon s3. Here we will click on Upload.
+
+![image](https://user-images.githubusercontent.com/103466963/171030457-212f1c61-f98e-4031-bc24-190c885b30b3.png)
+
+After that, we will click on Add files. We can also add a folder. Here we can see our uploaded object named aws.png.
+
+![image](https://user-images.githubusercontent.com/103466963/171030829-cd26f4b5-86fd-4317-8c02-356898c5fdf3.png)
+
+We will leave the remaining settings to default and then click on Upload.
+
+![image](https://user-images.githubusercontent.com/103466963/171031082-d9865338-b822-4e25-80ce-413a7303bdbf.png)
+
+Here we can see the details of the object uploaded which include Properties, Permissions, and Versions. Note that we can see an Object URL over here. If we copy this URL and paste it into the browser let's see what happens.
+
+
 
 
 
