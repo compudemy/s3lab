@@ -73,6 +73,13 @@ The access to the file is denied and the reason is that we blocked public access
 Now we will explore the topic of S3 versioning. Note that with versioning we can keep multiple variants of an object in the same bucket. Versioning is used to restore, retrieve and preserve every version of every object and through it, we can also recover from both unintended user actions and application failures.
 
 
+![image](https://user-images.githubusercontent.com/103466963/171034396-2d588459-9e7c-4367-9419-e531944015b2.png)
+
+Now we will click on Edit and Enable Bucket Versioning and then click on Save Changes
+
+![image](https://user-images.githubusercontent.com/103466963/171034770-6912feac-5a3a-4bb0-8cfd-bf6b59c1b5d3.png)
+
+
 
 
 
