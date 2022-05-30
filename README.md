@@ -44,8 +44,8 @@ Here we can see our bucket in the list of available buckets.
 
 ![image)](https://user-images.githubusercontent.com/103466963/171029469-faae612e-1f42-46c7-b792-733acb9237a7.png)
 
-# Step-2: Create an Object
-Now we will create objects in our S3 bucket. Note that objects are fundamental entities stored in Amazon s3. Here we will click on Upload.
+# Step-2: Upload an Object
+Now we will upload objects in our S3 bucket. Note that objects are fundamental entities stored in Amazon s3. Here we will click on Upload.
 
 ![image](https://user-images.githubusercontent.com/103466963/171030457-212f1c61-f98e-4031-bc24-190c885b30b3.png)
 
