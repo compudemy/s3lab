@@ -178,4 +178,5 @@ It returns us a JSON Document which we will use for our S3 Bucket Policy. Note t
 
 Now we will copy the above JSON document and paste it into our Bucket Policy and after that, we will click on Save changes.
 
+![image](https://user-images.githubusercontent.com/103466963/171054932-8876a962-fae3-4f05-8e72-f1f9cc5e4328.png)
 
