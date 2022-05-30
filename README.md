@@ -89,5 +89,23 @@ Now when we will turn on the Show versions option, we can clearly see both the o
 
 ![image](https://user-images.githubusercontent.com/103466963/171035650-0ce8e90c-0b6e-45ff-8017-2109b3858eba.png)
 
+Here for deleting an object permanently we will explicitly select an object and then click on Delete. To confirm deletion we will write permanently delete and then click on Delete objects.
+
+![image)](https://user-images.githubusercontent.com/103466963/171036001-45a64176-8337-404e-b9ec-33ca80e05fc0.png)
+
+Now we will explore one more thing. After uploading the aws.png object again and disabling the Show versions option we will select the object and then delete it.
+
+![image](https://user-images.githubusercontent.com/103466963/171036250-1581754e-a1e8-494e-b1d9-4e6a0e59acd7.png)
+
+![image](https://user-images.githubusercontent.com/103466963/171036552-386efe18-fab4-4063-821c-0bc74f77de3b.png)
+
+Here we can see that deleting specified objects adds delete markers to them. Now we will type delete and then click on Delete objects.
+
+![image](https://user-images.githubusercontent.com/103466963/171036750-219f56f9-691c-4c6b-8b6c-e2843771a73c.png)
+
+
+
+
+
 
 
