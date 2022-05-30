@@ -79,8 +79,9 @@ Now we will click on Edit and Enable Bucket Versioning and then click on Save Ch
 
 ![image](https://user-images.githubusercontent.com/103466963/171034770-6912feac-5a3a-4bb0-8cfd-bf6b59c1b5d3.png)
 
+Now we will upload the aws.png file again.
 
-
+![image](https://user-images.githubusercontent.com/103466963/171035205-7f8f433c-0ef1-4b48-a715-00e8b0ff9756.png)
 
 
 
