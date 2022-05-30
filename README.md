@@ -202,8 +202,11 @@ Here we can see that object has been uploaded successfully as it satisfies condi
 With this, we have come to the end of our tutorial. In this tutorial, we learned about
 
 S3 Buckets and Objects
+
 S3 Versioning
+
 S3  Encryption
+
 S3 Bucket Policy
 
 
