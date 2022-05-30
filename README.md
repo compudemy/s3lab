@@ -85,6 +85,7 @@ Now we will upload the aws.png file again.
 
 Now when we will turn on the Show versions option, we can clearly see both the objects one which we uploaded previously without versioning enabled has Version ID equal to null and the other which we uploaded now has a Version ID.
 
+
 ![image)](https://user-images.githubusercontent.com/103466963/171035514-0fd3c972-72c3-4683-8103-4dbc7ea60a4d.png)
 
 ![image](https://user-images.githubusercontent.com/103466963/171035650-0ce8e90c-0b6e-45ff-8017-2109b3858eba.png)
@@ -103,9 +104,15 @@ Here we can see that deleting specified objects adds delete markers to them. Now
 
 ![image](https://user-images.githubusercontent.com/103466963/171036750-219f56f9-691c-4c6b-8b6c-e2843771a73c.png)
 
+Here we will enable Show versions again to view the delete marker. Note that a delete marker is a  placeholder for a versioned object named in a simple DELETE request. When we delete an object with versioning enabled the object is not deleted. The delete marker makes Amazon S3 behave as if the object has been deleted. To restore the object here, we can delete the delete marker.
 
 
+![Screenshot (182)](https://user-images.githubusercontent.com/103466963/171041579-d2ca199d-1dd3-4ffa-9cb9-5e1ec4ba1ff3.png)
 
+# Step-4: S3 Bucket Encryption
+Now we will explore encryption in S3 Buckets. When we will get in the details of an object, we can see that Default Encryption is Disabled that is set at the bucket level.  When it is enabled the new objects that are uploaded to the S3 bucket will be encrypted by default.
+
+![image](https://user-images.githubusercontent.com/103466963/171041901-cc57a8a2-0564-475b-afe3-6137707e0ab4.png)
 
 
 
