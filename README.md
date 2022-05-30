@@ -1,23 +1,23 @@
 # s3lab
-Table of Contents
+# Table of Contents
 
-Overview on Amazon S3
+# Overview on Amazon S3
 
-Create AWS S3 Bucket and Objects – Hands-On
-Step-1: Create an S3 Bucket
+# Create AWS S3 Bucket and Objects – Hands-On
+# Step-1: Create an S3 Bucket
 
-Step-2: Create an Object
+# Step-2: Create an Object
 
-Step-3: S3 Bucket Versioning
+# Step-3: S3 Bucket Versioning
 
-Step-4: S3 Bucket Encryption
+# Step-4: S3 Bucket Encryption
 
-AWS S3 Bucket Policies
+# AWS S3 Bucket Policies
 
-Create S3 Bucket Policies- Hands-On
-Testing AWS Bucket Policy
+# Create S3 Bucket Policies- Hands-On
+# Testing AWS Bucket Policy
 
-Conclusion
+# Conclusion
 
 
 In this tutorial, we will learn about AWS S3 Buckets and create one. We will also explore S3 versioning and S3 encryption and in the last, we will generate an AWS S3 Bucket policy and apply it to our S3 Bucket. But before getting started let's see what is Amazon s3
@@ -39,6 +39,14 @@ Here we will Block all public access to our S3 bucket that are the default setti
 Currently, we will keep the Bucket Versioning disabled. We will play with it in the later sections of this tutorial. We can also add tags to our bucket. We will leave the Server-side encryption disabled for now and will see it in the later sections. Now we will click on Create bucket.
 
 ![image](https://user-images.githubusercontent.com/103466963/171028929-83b4af18-e48c-407b-aa68-6d15a45deacd.png)
+
+Here we can see our bucket in the list of available buckets.
+
+![image)](https://user-images.githubusercontent.com/103466963/171029469-faae612e-1f42-46c7-b792-733acb9237a7.png)
+
+**Step-2: Create an Object**
+Now we will create objects in our S3 bucket. Note that objects are fundamental entities stored in Amazon s3. Here we will click on Upload.
+
 
 
 
