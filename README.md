@@ -31,11 +31,6 @@ First, we will log in to our AWS console then under the Services tab type S3.  C
 Here we will enter a bucket name that should be globally unique. Now we will enter a new name for our bucket that is globa After that, we will choose a Region where our bucket will reside. I have chosen it to be US East (Ohio). You can choose a region that is near to you. Note that the S3 console is Global.
 
 
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/103466963/171026863-c2400719-9b91-4add-bd8c-3791b7a7ac96.png)
 
 Here we will Block all public access to our S3 bucket that are the default settings. This will be unchecked if we require public access to our buckets like in the case of hosting a website 
@@ -122,7 +117,7 @@ Now we will explore encryption in S3 Buckets. When we will get in the details of
 
 When we will get into the Server-side encryption settings of the object we can specify an Encryption key. It can be either Amazon s3 key (SSE-S3) that is an encryption key created, managed, and used for us by Amazon S3, or an AWS Key Management Service key (SSE-KMS) that is protected by AWS Key Management Service. Note that to upload an object with SSE-C that is a customer-provided encryption key we need to use AWS CLI, AWS SDK, or Amazon S3 REST API.
 
-![image](https://user-images.githubusercontent.com/103466963/171042511-a8334fb3-312b-4870-abdf-39a464aa1861.png)
+![image)](https://user-images.githubusercontent.com/103466963/171044728-e2653bc6-46f3-49c7-96ac-598953f0261d.png)
 
 ![image](https://user-images.githubusercontent.com/103466963/171042691-a129275f-43c1-40ec-867f-27fbd7d9ac4a.png)
 
