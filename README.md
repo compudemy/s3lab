@@ -124,22 +124,31 @@ When we will get into the Server-side encryption settings of the object we can s
 
 ![image](https://user-images.githubusercontent.com/103466963/171042511-a8334fb3-312b-4870-abdf-39a464aa1861.png)
 
-![Screenshot (185)](https://user-images.githubusercontent.com/103466963/171042691-a129275f-43c1-40ec-867f-27fbd7d9ac4a.png)
+![image](https://user-images.githubusercontent.com/103466963/171042691-a129275f-43c1-40ec-867f-27fbd7d9ac4a.png)
 
 Now when we will go to the bucket level encryption it's disabled by default. We will enable it through which new objects that are stored in the bucket are automatically encrypted.  Here also either we can do encryption through SSE-S3 or SSE-KMS. If we want to use SSE-C we will have to use AWS CLI, AWS SDK, or Amazon S3 REST API as stated above.
 
-![Screenshot (186)](https://user-images.githubusercontent.com/103466963/171042908-9c3a8aee-fc48-4e0b-9d0c-f4bb587cb884.png)
+![image](https://user-images.githubusercontent.com/103466963/171042908-9c3a8aee-fc48-4e0b-9d0c-f4bb587cb884.png)
 
-![Screenshot (187)](https://user-images.githubusercontent.com/103466963/171043087-6c86ea9b-341c-444f-a6e4-b78909bc1558.png)
+![image](https://user-images.githubusercontent.com/103466963/171043087-6c86ea9b-341c-444f-a6e4-b78909bc1558.png)
 
 Now when we will upload the object again in the bucket, we can see that the Default encryption is enabled.
 
-![Screenshot (188)](https://user-images.githubusercontent.com/103466963/171043281-10ad43e0-9763-4dd5-8e0f-c4e489df1433.png)
+![image](https://user-images.githubusercontent.com/103466963/171043281-10ad43e0-9763-4dd5-8e0f-c4e489df1433.png)
 
 # AWS S3 Bucket Policies
 According to what is mentioned on the official website of AWS,
 
-A bucket policy is a resource-based AWS Identity and Access Management (IAM) policy. You add a bucket policy to a bucket to grant other AWS accounts or IAM users access permissions for the bucket and the objects in it. Object permissions apply only to the objects that the bucket owner creates
+A bucket policy is a resource-based AWS Identity and Access Management (IAM) policy. You add a bucket policy to a bucket to grant other AWS accounts or IAM users access permissions for the bucket and the objects in it. Object permissions apply only to the objects that the bucket owner creates.
+
+# Create S3 Bucket Policies- Hands-On
+In the Permissions section of the bucket we created earlier, we can see that there is no policy written for our bucket. We will click on Edit.
+
+![image](https://user-images.githubusercontent.com/103466963/171044064-63bc44b7-d698-459f-a100-1b57833f7bf6.png)
+
+This will take us to a new screen where we can see Bucket ARN which we will use when we will generate our policy through the Policy generator. Now we will click on Policy generator.
+
+ ![image](https://user-images.githubusercontent.com/103466963/171044403-ddd4cdb1-0bdb-4959-8c49-f4ece7fa6a4d.png)
 
 
 
