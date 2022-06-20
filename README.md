@@ -229,6 +229,11 @@ Change S3 object permissions.
 Setup the bucket policy and permission and test the object accessibility.
 
 ![image](https://user-images.githubusercontent.com/103466963/174650577-99b85d0a-aa3e-44ed-8840-49ab350267e7.png)
+Set up the bucket name. S3 bucket name are globally unique, choose a name which is available.
+Click on Next
+
+![image](https://user-images.githubusercontent.com/103466963/174651003-7300ab5f-e2dd-4d0d-876f-7e1b4905eda6.png)
+
 
 
 
