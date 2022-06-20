@@ -229,10 +229,119 @@ Change S3 object permissions.
 Setup the bucket policy and permission and test the object accessibility.
 
 ![image](https://user-images.githubusercontent.com/103466963/174650577-99b85d0a-aa3e-44ed-8840-49ab350267e7.png)
+
 Set up the bucket name. S3 bucket name are globally unique, choose a name which is available.
 Click on Next
 
 ![image](https://user-images.githubusercontent.com/103466963/174651003-7300ab5f-e2dd-4d0d-876f-7e1b4905eda6.png)
+
+Leave other settings as default and click on Next
+
+![image](https://user-images.githubusercontent.com/103466963/174651306-2af5336d-aeb5-4ea4-8f53-44232dbffafd.png)
+
+Leave other settings as default and click on Next
+
+![image](https://user-images.githubusercontent.com/103466963/174651549-1246446a-8b00-4830-8c66-bddfedff3388.png)
+
+Leave other settings as default and click on Create bucket
+
+![image](https://user-images.githubusercontent.com/103466963/174651713-b0498929-f077-496c-a6c6-15d19ac317ab.png)
+
+Click on your bucket name.
+
+![image](https://user-images.githubusercontent.com/103466963/174651883-39fbdbb7-a63c-49ea-a306-498c847c1bd3.png)
+
+Click on Upload
+
+![image](https://user-images.githubusercontent.com/103466963/174652030-a1ef5274-0ed9-42fe-a4b1-b496a3474149.png)
+
+Click on Add files, and choose a file from your computer.
+
+![image](https://user-images.githubusercontent.com/103466963/174687559-479a5251-7a78-408a-b037-990b2c933dad.png)
+
+After choosing your file, click on Next
+
+![image](https://user-images.githubusercontent.com/103466963/174687640-91884ef2-64e4-4209-b751-ea5c9099b322.png)
+
+Click on Next
+
+![image](https://user-images.githubusercontent.com/103466963/174687683-819922d3-8569-4dec-a464-129b8835f3d0.png)
+
+Click on Next
+
+![image](https://user-images.githubusercontent.com/103466963/174687766-c535b06d-a8ee-42d0-95d8-4b4dd2ef7b63.png)
+
+Click on Upload.
+
+![image](https://user-images.githubusercontent.com/103466963/174688105-adaed77a-4405-44ef-8928-19314a3e7044.png)
+
+You could see the uploading procession below.
+
+![image](https://user-images.githubusercontent.com/103466963/174688522-1a149c03-92e3-458a-b39d-5cc007223fc8.png)
+
+Now you have a private S3 bucket with a private object uploaded, which means you cannot visit it through Internet.
+
+Change Bucket Permission
+
+Change the permission of the bucket to make the image available publicly.
+
+Click on your object in the bucket, You will see the object details like owner, size, link, etc.
+
+![image](https://user-images.githubusercontent.com/103466963/174688649-4ff46a68-685b-46d8-a127-07a28bc3ef79.png)
+
+A URL will be listed under Object URL
+
+https://mys3bucketwhizlabs.s3.amazonaws.com/smiley.jpg
+
+Open image Link in a new tab.
+You will see an AccessDenied message, which means the object is not publicly accessible.
+
+![image](https://user-images.githubusercontent.com/103466963/174689068-a1b4f9ad-7075-4654-acc9-b648320f946b.png)
+
+Go back to your bucket and click on Permissions
+
+![image](https://user-images.githubusercontent.com/103466963/174689154-9591fc9a-4c9a-4c96-b7cb-2c524a036806.png)
+
+Click on Everyone under the Public access, and click on Read object on the right of pop-up window. Then click on Save
+
+![image](https://user-images.githubusercontent.com/103466963/174689240-498c446d-59bf-4911-8fd6-6b170290c2d3.png)
+
+Now its state switches to Read Object - Yes
+
+![image](https://user-images.githubusercontent.com/103466963/174689296-cb0f49ee-d47e-4232-96b1-aad3e11ac1a8.png)
+
+Click on Overview, and click on your Object URL again
+
+![image](https://user-images.githubusercontent.com/103466963/174689388-b3f98037-eaff-4187-a899-6cab52e4d254.png)
+
+Create a Bucket Policy
+
+In the previous step, you granted read access only to a specific object. 
+
+If you wish to make all objects inside a bucket available publicly, you can achieve this by creating a bucket policy.
+
+Go to the bucket list and click on your bucket name
+
+![image](https://user-images.githubusercontent.com/103466963/174689535-0328020a-4926-4899-ad4e-a1cfcaa35f9d.png)
+
+Click the Permissions tab, then configure the following
+
+![image](https://user-images.githubusercontent.com/103466963/174689623-2719f342-a9ca-4089-b948-474aa20a4abc.png)
+
+Click on Bucket Policy
+
+![image](https://user-images.githubusercontent.com/103466963/174689695-a628a5b7-ee5f-473f-8ccb-9674c15623f9.png)
+
+A blank Bucket policy editor is displayed.
+
+Copy the ARN of your bucket to the clipboard.e.g, arn:aws:s3:::s3bucket180
+
+Replace your bucket ARN with the ARN listed in the JSON below, then copy the entire policy.
+
+<img width="821" alt="Screen Shot 2022-06-20 at 19 51 15" src="https://user-images.githubusercontent.com/103466963/174690234-451dd845-cced-4a28-bfe8-ff538afd89cf.png">
+
+
+
 
 
 
