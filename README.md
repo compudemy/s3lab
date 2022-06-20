@@ -228,6 +228,9 @@ Change S3 object permissions.
 
 Setup the bucket policy and permission and test the object accessibility.
 
+![image](https://user-images.githubusercontent.com/103466963/174650577-99b85d0a-aa3e-44ed-8840-49ab350267e7.png)
+
+
 
 
 
