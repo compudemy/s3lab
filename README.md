@@ -208,7 +208,16 @@ S3 Versioning
 S3  Encryption
 
 S3 Bucket Policy
-
+LAB 2
+Lab Details
+This lab walks you through Amazon Simple Storage Service. Amazon S3 has a simple web interface that you can use to store and retrieve any amount of data(at any time) from anywhere on the web. In this lab we will demonstrate AWS S3 by creating a sample S3 bucket, uploading an object to the S3 bucket and setting up the bucket permission and policy.
+Tasks
+Log into the AWS Management Console.
+Create an S3 bucket.
+Upload an object to S3 Bucket.
+Access the object on the browser.
+Change S3 object permissions.
+Setup the bucket policy and permission and test the object accessibility.
 
 
 
