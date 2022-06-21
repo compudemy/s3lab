@@ -340,6 +340,186 @@ Replace your bucket ARN with the ARN listed in the JSON below, then copy the ent
 
 <img width="821" alt="Screen Shot 2022-06-20 at 19 51 15" src="https://user-images.githubusercontent.com/103466963/174690234-451dd845-cced-4a28-bfe8-ff538afd89cf.png">
 
+Click on Save
+
+![image](https://user-images.githubusercontent.com/103466963/174690435-93b1d783-ff68-46f8-83e2-bcd958eef65b.png)
+
+Test Public Access
+
+Go back to your bucket list, then click on your bucket.
+
+Upload another file.
+
+Leave all of the settings as default
+
+![image](https://user-images.githubusercontent.com/103466963/174690566-aa3a938a-dc99-413b-842e-193f067d4ec9.png)
+
+Click on your new object, and click on the Object URL
+
+![image](https://user-images.githubusercontent.com/103466963/174690637-e55d5368-ac18-42e3-b95a-0e9334d762ee.png)
+Success
+
+Completion and Conclusion
+
+You have successfully created a new AWS S3 Bucket.
+
+You have successfully uploaded an image to the S3 bucket.
+
+You have learned to change S3 object permissions.
+
+You have learned how to create an S3 bucket policy.
+
+How to enable versioning Amazon S3
+
+https://play.whizlabs.com/site/task_details?lab_type=1&task_id=21&quest_id=35
+
+Lab Details
+
+This lab walks you through the steps on how to enables versioning on an AWS S3 Bucket. 
+
+Versioning allows you to keep multiple versions of an object in one bucket.
+
+Task Details
+
+Log into the AWS Management Console.
+
+Create an S3 bucket.
+
+Enable object versioning on the bucket.
+
+Upload a text file to the S3 Bucket.
+
+Test object versioning by changing the text file and re-uploading it.
+
+Architecture Diagram
+
+<img width="749" alt="Screen Shot 2022-06-20 at 20 09 02" src="https://user-images.githubusercontent.com/103466963/174691319-7e84ae02-5d6e-42d3-8881-e9bd89a92cc2.png">
+
+S3 Configuration
+
+Service -> S3
+
+Create an S3 Bucket
+
+On the S3 dashboard, click on Create bucket and fill in the bucket details.
+
+![image](https://user-images.githubusercontent.com/103466963/174691667-e0a753f1-ecab-45b1-8a21-b59192694cb7.png)
+
+Bucket name: Enter yourBucketName
+
+Note: S3 bucket names are globally unique, choose a name which is available.
+
+Region: Select US East (N. Virginia)
+
+Leave other settings as default.
+
+Click on Create
+
+![image](https://user-images.githubusercontent.com/103466963/174691930-6aedc778-e60d-470d-b460-6e43d8ac84bb.png)
+
+Close the pop up window if it’s still open.
+
+![image](https://user-images.githubusercontent.com/103466963/174692073-788a8564-ab55-43b9-89c9-96e1e24457cb.png)
+
+Enable Versioning on the S3 bucket
+
+Go to the bucket list and click on your bucket name whizlabs234
+
+![image](https://user-images.githubusercontent.com/103466963/174692282-a4048bf7-e820-49e3-bb6c-871f75583b5a.png)
+
+Click on Properties.
+
+![image](https://user-images.githubusercontent.com/103466963/174692383-1a1ff08f-a09b-4d7d-9d35-3d9185dcf805.png)
+
+Choose Versioning.
+
+![image](https://user-images.githubusercontent.com/103466963/174692570-71d6ff61-c4be-4241-af08-b013ee24e28d.png)
+
+Choose Enable versioning and click on Save.
+
+![image](https://user-images.githubusercontent.com/103466963/174692690-b3bd0850-b0ec-4df1-97e3-b40561699665.png)
+
+Now versioning on the S3 bucket is enabled.
+
+![image](https://user-images.githubusercontent.com/103466963/174693296-a275148e-ba76-4d78-ae6a-c08f040c7c31.png)
+
+Upload an object
+
+Upload any file from your local machine.
+
+On the S3 Buck list page, Click on youBucketName
+
+Click on Overview tab.
+
+Click on the Upload button.
+
+![image](https://user-images.githubusercontent.com/103466963/174693478-b8610281-14fa-405d-b5f9-5c719853295b.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174693512-263cd659-ca27-4705-af1c-44bc808b0cc7.png)
+
+Click on the Add files button.
+
+![image](https://user-images.githubusercontent.com/103466963/174693578-5e1a6ddd-9efc-4e06-accb-7b74defd9fa9.png)
+
+Browse for the file you want to upload.
+
+![image](https://user-images.githubusercontent.com/103466963/174693654-0eda149c-160c-43fc-b280-fdc3d9633035.png)
+
+Click on Next and Grant public read access to this project(s)
+
+Click on the Upload button.
+
+![image](https://user-images.githubusercontent.com/103466963/174693732-05b422df-ab0e-47a1-a244-d292cf8616c0.png)
+
+You can watch the progress of the upload from within the transfer panel at the bottom of the screen. 
+
+If it’s a small file, you might not see the transfer. 
+
+Once your file has been uploaded, it will be displayed in the bucket.
+
+![image](https://user-images.githubusercontent.com/103466963/174693823-244a878d-1dba-486e-8da2-6000345fdcb3.png)
+
+Make the bucket public with a Bucket Policy
+
+Go to the bucket list and click on your bucket name.
+
+![image](https://user-images.githubusercontent.com/103466963/174693921-fbcdbdd8-28f3-451e-af8b-c1d33b3c0339.png)
+
+Click the Permissions tab to configure your bucket:
+
+In the Permissions tab, click on Bucket Polity
+
+A blank Bucket policy editor is displayed.
+
+Before creating the policy, you will need to copy the ARN (Amazon Resource Name) of your bucket.
+
+Copy the ARN of your bucket to the clipboard. It is displayed at the top of the policy editor. its look like ARN: arn:aws:s3:::your-bucket-name
+
+![image](https://user-images.githubusercontent.com/103466963/174694110-47113b9c-aee0-407d-a1ed-9a2683c9d221.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174694136-834dddeb-7751-4d75-97d1-5edac17188a6.png)
+
+In the policy below, update your bucket ARN in the Resource key value and copy the policy code.
+
+Paste the bucket policy into the Bucket policy editor.
+
+<img width="806" alt="Screen Shot 2022-06-20 at 20 51 06" src="https://user-images.githubusercontent.com/103466963/174694308-c21d1fcb-ef1e-45a7-92de-7135ed9b4ef3.png">
+
+![image](https://user-images.githubusercontent.com/103466963/174694339-e3d27842-f3ff-4ff6-9202-8f4fd7590974.png)
+
+Click on Save
+
+![image](https://user-images.githubusercontent.com/103466963/174694389-7749a752-0827-416f-8f61-70b2594f016d.png)
+
+Click on Overview
+
+![image](https://user-images.githubusercontent.com/103466963/174694551-10434879-2bb5-43e7-9035-ac54afd7400c.png)
+
+Now open the text file link in your browser and you should see the text in file.
+
+![image](https://user-images.githubusercontent.com/103466963/174694626-051ae13e-02e4-46b1-9134-2447706afd55.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174694674-e117d673-3a8d-4dc4-8589-d706442e1da2.png)
 
 
 
