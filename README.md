@@ -521,8 +521,71 @@ Now open the text file link in your browser and you should see the text in file.
 
 ![image](https://user-images.githubusercontent.com/103466963/174694674-e117d673-3a8d-4dc4-8589-d706442e1da2.png)
 
+Upload the same object with different content
 
+Upload the same file with different content from your local machine.
 
+On the S3 Buck list page, Click on youBucketName
+
+Click on Overview tab.
+
+Click on the Upload button.
+
+![image](https://user-images.githubusercontent.com/103466963/174838772-c9d53f89-dcce-40ef-9679-dcabee1f6857.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174838865-36c4213d-ce15-49f1-9c41-da04f3bd6265.png)
+
+Click on the Add files button.
+
+![image](https://user-images.githubusercontent.com/103466963/174839008-364c6fc7-666a-43f0-aaec-2e28c06271c8.png)
+
+Browse for the file you want to upload.
+
+![image](https://user-images.githubusercontent.com/103466963/174839314-da9510d3-a059-458a-9f3a-a7521b66b07b.png)
+
+Click on Next and Grant public read access to this project(s)
+
+Click on the Upload button.
+
+![image](https://user-images.githubusercontent.com/103466963/174839537-a0deea3b-a946-4db7-9cc3-4b61d9a74653.png)
+
+You should see the latest version of the file you uploaded.
+
+![image](https://user-images.githubusercontent.com/103466963/174839714-c7c63b65-6311-4e7c-ba38-99f1c1b177ec.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174840035-561dae1e-ef17-4df7-9eab-2762e1d61f2e.png)
+
+Testing a previous version of the file
+
+To enable the old version of the file, we need to delete the latest version of the file.
+
+Click on object URL
+
+![image](https://user-images.githubusercontent.com/103466963/174840231-27aab0f4-4ceb-4fc3-a78f-02feac3b5521.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174840763-3b0cb570-aa4e-4eed-9764-a6dfd814e5af.png)
+
+Click on the file name.
+
+On the top section (next to the object name) you can find a drop down of all file versions called 
+
+Latest version
+
+![image](https://user-images.githubusercontent.com/103466963/174840971-bc9f3dca-c415-41df-9b30-f5ca685ec6c5.png)
+
+Click on the drop down and delete the latest version of your file.
+
+![image](https://user-images.githubusercontent.com/103466963/174841053-768a480f-134d-44f6-a9c9-48890d8f2068.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174841277-42ea1be0-0508-42ce-a330-6c5d98367415.png)
+
+Completion and Conclusion
+
+You have successfully created an S3 Bucket.
+
+You have successfully enabled Object Versioning on the Bucket.
+
+You have successfully uploaded a test file into the Bucket and tested its versioning.
 
 
 
