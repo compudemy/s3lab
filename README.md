@@ -587,6 +587,167 @@ You have successfully enabled Object Versioning on the Bucket.
 
 You have successfully uploaded a test file into the Bucket and tested its versioning.
 
+Creating an S3 Lifecycle Policy
+
+https://play.whizlabs.com/site/task_details?lab_type=1&task_id=45&quest_id=35
+
+Lab Details
+
+This Lab walks you through the steps on how to create a Lifecycle Rule for an object in an S3 Bucket.
+
+Lab Tasks
+
+Log into the AWS Management Console.
+
+Create S3 Bucket and upload and object into the bucket.
+
+Create a Lifecycle Rule on the object.
+
+Create Transition types.
+
+Create Transition Expiration.
+
+Test the Lifecycle Rule on the uploaded object.
+
+S3 Configuration
+
+Create an S3 Bucket
+
+On the S3 dashboard, click on Create bucket and fill in the bucket details.
+
+![image](https://user-images.githubusercontent.com/103466963/174851671-8f0cbaf9-abcc-40b1-bcfc-f3911ea0d90b.png)
+
+Bucket name: Enter inputYourBucketName
+
+Note: S3 bucket names are globally unique, choose a name which is available.
+
+Region: Select US East (N. Virginia)
+
+Leave other settings as default.
+
+Click on Create
+
+![image](https://user-images.githubusercontent.com/103466963/174852054-57a637e8-8cbf-4e47-bb03-9004472e508e.png)
+
+Close the pop up window if it’s still open.
+
+![image](https://user-images.githubusercontent.com/103466963/174852228-1cf0097b-1dbe-422f-bbda-e81ca6afe54a.png)
+
+Upload an object
+
+Upload any file from your local machine.
+
+On the S3 Buck list page, Click on youBucketName
+
+Click on Overview tab.
+
+Click on the Upload button.
+
+![image](https://user-images.githubusercontent.com/103466963/174852565-d8ef4e19-75cd-4eaa-8380-30ff26dc39eb.png)
+
+![image](https://user-images.githubusercontent.com/103466963/174852632-b430b17c-9d7c-4b1c-86d9-7927b9f5119e.png)
+
+Click on the Add files button.
+
+![image](https://user-images.githubusercontent.com/103466963/174852779-59a45be4-21bc-421f-96f0-328c3f797c50.png)
+
+Browse for the file you want to upload.
+
+![image](https://user-images.githubusercontent.com/103466963/174852954-eca0768c-e482-4dbb-b224-2b8b7cc02ba1.png)
+
+Click on Next and Grant public read access to this project(s)
+
+Click on the Upload button.
+
+![image](https://user-images.githubusercontent.com/103466963/174853151-e40897f5-10db-427c-ad2a-07ce6159e6ea.png)
+
+You can watch the progress of the upload from within the transfer panel at the bottom of the screen. 
+
+If it’s a small file, you might not see the transfer. 
+
+Once your file has been uploaded, it will be displayed in the bucket.
+
+![image](https://user-images.githubusercontent.com/103466963/174853343-b5006b3b-8d44-4bef-857d-18e38ca31307.png)
+
+Creating a Lifecycle Rule
+
+Click on the Management tab.
+
+![image](https://user-images.githubusercontent.com/103466963/174853590-76ef7569-80c2-43b3-8d8c-7c5ed528a2f6.png)
+
+Click on Add lifecycle rule to create a lifecycle rule for the uploaded object.
+
+![image](https://user-images.githubusercontent.com/103466963/174853924-ae396b7e-6246-4bc5-ada5-9e9e569e3729.png)
+
+Enter the rule name: tmpLifecycle
+
+Add a filter to limit the scope to prefix/tags: tmp
+
+Choose prefix tmp from the drop-down and click Next.
+
+![image](https://user-images.githubusercontent.com/103466963/174854133-6f60b8bf-131b-49ce-8636-0be0ddd8e95e.png)
+
+Storage class transition: Select Current version
+
+![image](https://user-images.githubusercontent.com/103466963/174854309-b7ba69ee-08bd-4e90-a885-0ec069a22188.png)
+
+For current versions of objects: Click Add transition
+
+Note: currently versioning is disabled so we can’t access previous versions of the object.
+Object Creation: Select Transition to One Zone-IA after from the drop-down list.
+
+Days after creation: Enter 35.
+Click on Add transition.
+
+Select Transition to Glacier after from the drop-down list. When asked for a number of days before moving to Glacier, enter 90.
+
+Click on the checkbox saying I acknowledge that this lifecycle rule will increase the one-time lifecycle request cost if it transitions to small objects.
+
+Click on Next.
+
+Note:
+
+Initially, when the object is uploaded, it will be in the standard storage class.
+
+When we create a LifeCycle Policy, the object uploaded using the Lifecycle rule will be migrated to One Zone-IA after 35 days. This means the object will be available only in a Single Availability Zone after 35 days.
+
+After 90 days, our object will be migrated to Glacier. This means our object will be in an archived state. You would have to retrieve the object from Glacier before accessing it.
+
+![image](https://user-images.githubusercontent.com/103466963/174855156-d96a76c7-5dba-4273-9a02-6d241a30a067.png)
+
+Create Expiration: Select Current version
+
+Expire the current version of an object: Enter 120.
+
+Select the Clean up incomplete multipart uploads check-box.
+
+Note: Leave the number of days at 7 (Default value). This means that objects which are not properly uploaded will be deleted after 7 days.
+
+![image](https://user-images.githubusercontent.com/103466963/174855296-3da4d3e5-d227-4bc9-b7e7-c4180e613115.png)
+
+Before saving, verify the configurations (you can go back and edit later if you need to change anything). Click Edit.
+
+Click on Save.
+
+![image](https://user-images.githubusercontent.com/103466963/174855662-3a5d4d17-2afb-47cd-a22c-d09f69eb3fea.png)
+
+The Lifecycle Rule for our object will now be created and enabled.
+
+![image](https://user-images.githubusercontent.com/103466963/174855767-ca9d52c1-ac32-42cd-b22c-d9ed28105741.png)
+
+Completion and Conclusion
+
+You have successfully used the AWS management console to create a Lifecycle Rule for the object in the S3 bucket.
+
+You have configured the details of a Lifecycle Rule.
+
+
+
+
+
+
+
+
 
 
 
